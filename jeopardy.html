@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jeopardy Home</title>
+
+        <link rel="stylesheet" type="text/css" href="https://saisiddhish.github.io/careers8-career_cluster9/assets/css/style.css" crossorigin="anonymous">
+        
+        <script>
+            var pointValue = 0;
+            function jeopardy(careernum, ptvalue) {
+                // Career #1
+                // 100
+                if (careernum == 1 && ptvalue == 100) {
+                    var ans = prompt('ENTER THE LETTER OF THE ANSWER YOU CHOOSE. QUESTION: What do Computer Hardware Engineers do? a. Design new computer hardware, b. Eat cake, c. Play games all day');
+                    document.getElementById('1-100').disabled = true;
+                    if (ans == "a") {
+                        alert('That is correct!');
+                        pointValue = pointValue + 100;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('1-100').style.color = "#1a1a1a";
+                        document.getElementById('1-100').style.cursor = "default";
+                    } else {
+                        alert('That is incorrect, the correct answer was "a. Design new computer hardware".');
+                        pointValue = pointValue - 100;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('1-100').style.color = "#1a1a1a";
+                        document.getElementById('1-100').style.cursor = "default";
+                    }
+                }
+                // 200
+                if (careernum == 1 && ptvalue == 200) {
+                    var ans = prompt('ENTER THE LETTER OF THE ANSWER YOU CHOOSE. QUESTION: Where do Computer Hardware Engineers work? a. At a Microsoft office writing code for Windows 11, b. At a high-efficiency bakery, c. At a lab designing and testing new computer parts');
+                    document.getElementById('1-200').disabled = true;
+                    if (ans == "c") {
+                        alert('That is correct!');
+                        pointValue = pointValue + 200;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('1-200').style.color = "#1a1a1a";
+                        document.getElementById('1-200').style.cursor = "default";
+                    } else {
+                        alert('That is incorrect, the correct answer was "c. At a lab designing and testing new computer parts".');
+                        pointValue = pointValue - 200;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('1-200').style.color = "#1a1a1a";
+                        document.getElementById('1-200').style.cursor = "default";
+                    }
+                }
+                //300
+                if (careernum == 1 && ptvalue == 300) {
+                    var ans = prompt('ENTER THE LETTER OF THE ANSWER YOU CHOOSE. QUESTION: What education does a Computer Hardware Engineer need? a. A Bachelor\'s degree in Computer Engineering, b. A Bachelor\'s degree in Art & Design, c. A Bachelor\'s degree in Baking');
+                    document.getElementById('1-300').disabled = true;
+                    if (ans == "a") {
+                        alert('That is correct!');
+                        pointValue = pointValue + 300;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('1-300').style.color = "#1a1a1a";
+                        document.getElementById('1-300').style.cursor = "default";
+                    } else {
+                        alert('That is incorrect, the correct answer was "A Bachelor\'s degree in Computer Engineering".');
+                        pointValue = pointValue - 300;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('1-300').style.color = "#1a1a1a";
+                        document.getElementById('1-300').style.cursor = "default";
+                    }
+                }
+                //400
+                if (careernum == 1 && ptvalue == 400) {
+                    var ans = prompt('ENTER THE LETTER OF THE ANSWER YOU CHOOSE. QUESTION: What is the average annual salary of a Computer Hardware Engineer? a. $120,409, b. $119,560, c. $192,110');
+                    document.getElementById('1-400').disabled = true;
+                    if (ans == "b") {
+                        alert('That is correct!');
+                        pointValue = pointValue + 400;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('1-400').style.color = "#1a1a1a";
+                        document.getElementById('1-400').style.cursor = "default";
+                    } else {
+                        alert('That is incorrect, the correct answer was "b. $119,560".');
+                        pointValue = pointValue - 400;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('1-400').style.color = "#1a1a1a";
+                        document.getElementById('1-400').style.cursor = "default";
+                    }
+                }
+                //500
+                if (careernum == 1 && ptvalue == 500) {
+                    var ans = prompt('ENTER THE LETTER OF THE ANSWER YOU CHOOSE. QUESTION: How much is the demand for Computer Hardware Engineers going to increase from 2020 to 2030? a. To increase 10%, b. To increase 2%, c. To increase 1%');
+                    document.getElementById('1-500').disabled = true;
+                    if (ans == "b") {
+                        alert('That is correct!');
+                        pointValue = pointValue + 500;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('1-500').style.color = "#1a1a1a";
+                        document.getElementById('1-500').style.cursor = "default";
+                    } else {
+                        alert('That is incorrect, the correct answer was "b. To increase 2%".');
+                        pointValue = pointValue - 500;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('1-500').style.color = "#1a1a1a";
+                        document.getElementById('1-500').style.cursor = "default";
+                    }
+                }
+                
+                // Career #2
+                // 100
+                if (careernum == 2 && ptvalue == 100) {
+                    var ans = prompt('ENTER THE LETTER OF THE ANSWER YOU CHOOSE. QUESTION: What do Industrial Engineers do? a. Eat cake, b. Figure out how to manufacture products at maximum efficiency, c. Play games all day');
+                    document.getElementById('2-100').disabled = true;
+                    if (ans == "b") {
+                        alert('That is correct!');
+                        pointValue = pointValue + 100;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('2-100').style.color = "#1a1a1a";
+                        document.getElementById('2-100').style.cursor = "default";
+                    } else {
+                        alert('That is incorrect, the correct answer was "b. Figure out how to manufacture products at maximum efficiency".');
+                        pointValue = pointValue - 100;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('2-100').style.color = "#1a1a1a";
+                        document.getElementById('2-100').style.cursor = "default";
+                    }
+                }
+                // 200
+                if (careernum == 2 && ptvalue == 200) {
+                    var ans = prompt('ENTER THE LETTER OF THE ANSWER YOU CHOOSE. QUESTION: Where do Industrial Engineers work? a. At a Microsoft office writing code for Xbox\'s, b. At a high-efficiency bakery, c. At any part of the factory they are trying to improve');
+                    document.getElementById('2-200').disabled = true;
+                    if (ans == "c") {
+                        alert('That is correct!');
+                        pointValue = pointValue + 200;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('2-200').style.color = "#1a1a1a";
+                        document.getElementById('2-200').style.cursor = "default";
+                    } else {
+                        alert('That is incorrect, the correct answer was "c. At any part of the factory they are trying to improve".');
+                        pointValue = pointValue - 200;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('2-200').style.color = "#1a1a1a";
+                        document.getElementById('2-200').style.cursor = "default";
+                    }
+                }
+                //300
+                if (careernum == 2 && ptvalue == 300) {
+                    var ans = prompt('ENTER THE LETTER OF THE ANSWER YOU CHOOSE. QUESTION: What education does a Industrial Engineer need? a. A Bachelor\'s degree in Industrial Engineering, b. A Master\'s degree in Industrial Engineering Technologies, c. A Bachelor\'s degree in Mechanical Engineering');
+                    document.getElementById('2-300').disabled = true;
+                    if (ans == "a") {
+                        alert('That is correct!');
+                        pointValue = pointValue + 300;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('2-300').style.color = "#1a1a1a";
+                        document.getElementById('2-300').style.cursor = "default";
+                    } else {
+                        alert('That is incorrect, the correct answer was "A Bachelor\'s degree in Industrial Engineering".');
+                        pointValue = pointValue - 300;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('2-300').style.color = "#1a1a1a";
+                        document.getElementById('2-300').style.cursor = "default";
+                    }
+                }
+                //400
+                if (careernum == 2 && ptvalue == 400) {
+                    var ans = prompt('ENTER THE LETTER OF THE ANSWER YOU CHOOSE. QUESTION: What is the average annual salary of a Industrial Engineer? a. $90,259, b. $119,560, c. $88,950');
+                    document.getElementById('2-400').disabled = true;
+                    if (ans == "c") {
+                        alert('That is correct!');
+                        pointValue = pointValue + 400;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('2-400').style.color = "#1a1a1a";
+                        document.getElementById('2-400').style.cursor = "default";
+                    } else {
+                        alert('That is incorrect, the correct answer was "c. $88,950".');
+                        pointValue = pointValue - 400;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('2-400').style.color = "#1a1a1a";
+                        document.getElementById('2-400').style.cursor = "default";
+                    }
+                }
+                //500
+                if (careernum == 2 && ptvalue == 500) {
+                    var ans = prompt('ENTER THE LETTER OF THE ANSWER YOU CHOOSE. QUESTION: How much is the demand for Industrial Engineers going to increase from 2020 to 2030? a. To increase 10%, b. To increase 14%, c. To increase 3%');
+                    document.getElementById('2-500').disabled = true;
+                    if (ans == "b") {
+                        alert('That is correct!');
+                        pointValue = pointValue + 500;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('2-500').style.color = "#1a1a1a";
+                        document.getElementById('2-500').style.cursor = "default";
+                    } else {
+                        alert('That is incorrect, the correct answer was "b. To increase 14%".');
+                        pointValue = pointValue - 500;
+                        document.getElementById('points').innerHTML = 'Points: ' + pointValue;
+                        console.log(pointValue);
+                        document.getElementById('2-500').style.color = "#1a1a1a";
+                        document.getElementById('2-500').style.cursor = "default";
+                    }
+                }
+            }
+            
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="points">
+                <h3 id="points">Points: 0</h3>
+            </div>
+            <div class="title">
+                <h1>JEOPARDY</h1>
+            </div>
+            <br>
+            <div class="container">
+                <div class="jeopardy-container">
+                    <div class="jeopardy-table-container">
+                        <table class="jeopardy-table">
+                            <tr>
+                                <th>Career 1</th>
+                                <th>Career 2</th>
+                            </tr>
+                            <tr>
+                                <td><button onclick="jeopardy(1,100)" id="1-100">100</button></td>
+                                <td><button onclick="jeopardy(2,100)" id="2-100">100</button></td>
+                            </tr>
+                            <tr>
+                                <td><button onclick="jeopardy(1,200)" id="1-200">200</button></td>
+                                <td><button onclick="jeopardy(2,200)" id="2-200">200</button></td>
+                            </tr>
+                            <tr>
+                                <td><button onclick="jeopardy(1,300)" id="1-300">300</button></td>
+                                <td><button onclick="jeopardy(2,300)" id="2-300">300</button></td>
+                            </tr>
+                            <tr>
+                                <td><button onclick="jeopardy(1,400)" id="1-400">400</button></td>
+                                <td><button onclick="jeopardy(2,400)" id="2-400">400</button></td>
+                            </tr>
+                            <tr>
+                                <td><button onclick="jeopardy(1,500)" id="1-500">500</button></td>
+                                <td><button onclick="jeopardy(2,500)" id="2-500">500</button></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
