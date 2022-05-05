@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+body {
+  background-color: #1a1a1a;
+}
+
+.points {
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Titan One', cursive;
+    font-size: 40px;
+    color: #060CE9;
+}
+
+table, th, td {
+    border: 2px solid white;
+    width: 800px;
+    font-size: 20px;
+    color: white;
+}
+
+th, td, button {
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+}
+
+button {
+  background-color: #1a1a1a;
+  cursor: pointer;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.jeopardy-table {
+    margin-left: auto; 
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+}
